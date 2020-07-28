@@ -36,6 +36,7 @@ li {
 
 .features-tab {
   padding: 10% 15%;
+  margin: 0;
 }
 .features-icon {
   color:#ef8172;
@@ -78,6 +79,9 @@ li {
   margin: 20px 20px 50px;
 }
 
+.pricing-card {
+  padding: 3% 2%;
+}
 .testimonials-image {
   border-radius: 100%;
   width: 10%;
@@ -90,11 +94,18 @@ li {
     padding-bottom: 3%;
 }
 
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   color: #fff;
   background-color: #ef8172;
+}
+
+#testimonials-carousel {
+    padding: 7% 15%;
 }
 
 #title {
