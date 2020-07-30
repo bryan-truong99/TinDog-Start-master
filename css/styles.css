@@ -6,7 +6,7 @@ h1 {
 font-family: 'Montserrat', sans-serif;
 font-weight: 900;
 line-height: 1.5;
-font-size: 3.5rem;
+font-size: 3rem;
 }
 
 h2 {
@@ -21,7 +21,7 @@ li {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .download-button {
@@ -37,6 +37,8 @@ li {
 .features-tab {
   padding: 10% 15%;
   margin: 0;
+  background-color: #fff;
+  position: relative;
 }
 .features-icon {
   color:#ef8172;
@@ -56,6 +58,8 @@ li {
 .iphone {
   transform: rotate(25deg);
   width: 60%;
+  position: absolute;
+  right: 30%;
 }
 
 .navbar-brand {
@@ -111,4 +115,15 @@ li {
 #title {
   background-color: #ff4c68;
   color: #fff;
+}
+
+@media (max-width: 1028px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
